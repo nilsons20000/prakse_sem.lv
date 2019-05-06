@@ -1,0 +1,398 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+html{height: 100%;}
+body{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	outline: 0;
+	font-family: "Raleway";
+	margin: auto;
+}
+a{
+	text-decoration: none !important;
+	color: white;
+} 
+
+ul{
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+	margin: 0;
+	font-size: 16px;
+	font-weight: bold;
+}
+ul li a{
+	display: block;
+	padding: 7px 10px 14px 10px;
+	color: blue;
+}
+.color_menu_registration_language{
+		color: black;
+}
+
+ul li .section:hover:before{
+	content: "\1f312";
+	position: absolute;
+	right: 0;
+	left: 0;
+	margin:0;
+	margin-top: -100px;
+	font-size: 50px;
+	-webkit-transform: skew(-20deg);
+	-moz-transform: skew(-20deg);
+	-o-transform: skew(-20deg);
+}
+ul li .section_three:before{
+	content: "\1f312";
+	position: absolute;
+	right: 0;
+	left: 0;
+	margin: -25px 0 0 0;
+	font-size: 25px;
+	-webkit-transform: skew(-20deg);
+	-moz-transform: skew(-20deg);
+	-o-transform: skew(-20deg);
+}
+.clear{
+	clear: both;
+}
+blockquote p::selection{
+	background: rgb(79,79,79.1);
+}
+.selection-select::selection{
+	background: rgb(79,79,79.1);
+}
+.menu-color::selection{
+	color: yellow;
+}
+.color_select::selection{
+	color:blue;
+}
+.select-brown::selection{
+	background: brown;
+}
+.menu-down_select::selection{
+	background: #7BA05B;
+}
+.navbar{
+	opacity: 0.9;
+}
+#navbar  li a{
+	color: rgb(84,105,150.1);
+}
+.logo img{
+	background: rgba(161,21,207, 0.5);
+	opacity: 0.7;
+}
+.left_text{
+	text-align: left;
+}
+.bold{
+	font-weight: bold;
+}
+.light{
+	font-weight: lighter;
+}
+.link-color a{
+	color: #fafa;
+}
+.link-background a{
+	background: white;
+}
+.default-color{
+	color: red;
+}
+.font{
+	font-size: 22px;
+}
+
+.color-font{
+	color: white;
+}
+.link{
+	border-radius: 50px 50px 50px 50px;
+	background-color:red;
+}
+.link a{
+	color: white;
+	margin: 0 0 50px 0;
+}
+.link-center{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+/*icon*/
+.icon-stop2{
+	-webkit-transform: skew(-20deg);
+	-moz-transform: skew(-20deg);
+	-o-transform: skew(-20deg);
+	color: red;
+	background-color: red;
+	padding: 0;
+}
+.icon{
+	display: flex;
+	font-size: 40px;
+}
+.icon-facebook2,.icon-twitter,.icon-instagram{
+	font-size: 40px;
+}
+.icon-twitter, .icon-instagram{
+	background-color:white; 
+	opacity: 0.5;
+}
+.icon-facebook2:hover{
+	background-color: black;
+}
+.icon_color-blue{
+	color: blue;
+}
+.icon_color-red{
+	color: red;
+}
+/*icon end*/
+
+/*headline*/
+.headline{
+	text-align: center;
+	margin-top: -5px;
+}
+.subheading-block{
+	font-size: 12px;
+}
+.headline_info{
+	margin-top: 10px;	
+}
+.subheading-width{
+	text-align: center;
+	width: 443px;
+}
+/*headline end*/
+
+
+/*center block,text utt*/
+.center-text a{
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+.center-text p{
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+.center-block:before{
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+.center-block {
+	text-align: center;
+	margin: 350px 0 0 0; 
+}
+.center-text{
+	position: relative ;
+}
+/*center end*/
+
+/*header*/
+.top-part{
+	background-color: transparent;
+	background-position: center;
+	background-size:  cover;
+	height: 1012.781px;
+	box-shadow: inset 0px 650px 500px -500px #fff;
+	background-image: -webkit-linear-gradient(bottom, rgba(255,255,255,1) 20%, rgba(0,0,0,0) 80%),url(../img/Town.jpg);
+	background-image: -o-linear-gradient(bottom, rgba(255,255,255,1) 20%, rgba(0,0,0,0) 80%),url(../img/Town.jpg);
+	background-image: linear-gradient(to top, rgba(255,255,255,1) 20%, rgba(0,0,0,0) 80%),url(../img/Town.jpg);
+}
+.registration-language{
+	width:264.212px;
+	height:15.218px;
+}
+.container-fluid{
+	overflow: hidden;
+}
+.row{
+	overflow: hidden;
+}
+
+.sms-bold{
+	font-size: 48px;
+	font-weight: bold;
+}
+.create-account{
+	display: inline-block;
+	vertical-align: middle;
+	position: relative ;
+	align-items: center;
+	width: 299.99px;
+	height: 50px;
+	margin: 0 0 25px 0;
+}
+select {
+   border:0px;
+   outline:0px;
+   opacity: 0.7;
+}
+/*header end*/
+
+
+
+
+/*website center*/
+.container-block{
+	width: 82%;
+	background-color: rgb(233,233,233.1);	
+	margin:0 auto;
+}
+
+.read-more{
+	text-align: center;
+	width: 250px;
+	height:50px;
+	border-radius: 50px 50px 50px 50px;
+	background-color:red;
+	margin-bottom: 50px;
+
+}
+
+.image-one img{
+	height: 250px;
+	width: 30%;
+	float: right;
+}
+.image-two img{
+	height: 250px;
+	width: 30%;
+}
+
+.text_line_block{
+	display: flex;
+	justify-content: center;
+}
+.text_line{
+	width: 1260px;
+	padding:10px;
+	margin-bottom: 58px;
+	border-bottom:1px solid grey;
+}
+/*website center end*/
+
+/*blockquote*/
+.quote-container{
+	background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.50)), url("../img/road1.jpg");
+	background-image: -o-linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.50)), url("../img/road1.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.50)), url("../img/road1.jpg");
+	background-size: cover;
+	height: auto;
+	width: 100%;
+}
+.quoteHeadline{
+	padding: 50px 0 0 0;
+}
+blockquote{
+	padding:30px;
+}
+.figcaption{
+	float: left;
+	margin:30px 0 50px 0;
+	font-size: 24px;
+}
+.figcaption-left{
+	margin:0 0 0 50px;
+}
+.arrow_box {
+	position: relative;
+	background: #fafafafa;
+	width: 80%;
+}
+.arrow_box:after, .arrow_box:before {
+	top: 100%;
+	left: 22.5%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+.arrow_box:after {
+	border-top-color: #fafafafa;
+	border-width: 30px;
+	margin-left: -30px;
+}
+.arrow_box:before {
+	border-top-color: #fafafafa;
+	border-width: 36px;
+	margin-left: -36px;
+}
+.arrow_box{
+	margin:0 auto;
+}
+input[type=text] {
+	width: 30%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: none;
+	border-bottom: 2px solid red;
+	font-size: 21px;
+}
+/*blockquote end*/
+
+/*footer*/
+.Bottom-part{
+	background-color: transparent;
+	background-position: center;
+	background-size:  cover;
+	text-align: center;
+	overflow:hidden;
+	background-image:url("../img/Town.jpg"); 
+	-moz-box-shadow: inset 0px 850px 500px -500px #fff;
+	-webkit-box-shadow: inset 0px 850px 500px -500px #fff;
+	-o-box-shadow: inset 0px 850px 500px -500px #fff;
+	box-shadow: inset 0px 850px 300px -300px #fff;
+}
+.connect-size{
+	font-size: 35px;
+}
+#name{
+	display: none;
+}
+footer{
+	padding: 15px 0 0 0;
+	margin-top: -16px;
+	height:50px;
+	background-color: #1e0f2a;
+}
+.social-network{
+	margin-bottom: 100px;
+}
+.singup{
+	margin-bottom: 100px;
+}
+.bottom_headline{
+	margin-top: 100px;
+}
+.footer{
+	text-align: center;
+	width: 250px;
+	height:25px;
+	margin:0 auto;
+}
+
+
+/*footer end*/
